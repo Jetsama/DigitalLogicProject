@@ -1,4 +1,4 @@
-22475480395266409
+22477184198520570
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -53003,6 +53003,13 @@ DIOB_MB10F-13
 0
 4
 4
+DigitalLogicFootprints
+HBBLogo
+
+
+0
+0
+0
 DigitalLogicFootprints
 LED_LTST-S220GKT_LTO
 
