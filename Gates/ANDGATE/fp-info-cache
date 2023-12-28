@@ -1,4 +1,4 @@
-22472072781301738
+22475480395266409
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -52969,12 +52969,12 @@ SMD SMT ceramic resonator filter filter hand-soldering
 3
 3
 DigitalLogicFootprints
-8mm snap
+8mm-snap
 
 
 0
-0
-0
+1
+1
 DigitalLogicFootprints
 DBV5
 
@@ -52997,6 +52997,13 @@ SN74LVC1G32DBVR
 5
 5
 DigitalLogicFootprints
+DIOB_MB10F-13
+
+
+0
+4
+4
+DigitalLogicFootprints
 LED_LTST-S220GKT_LTO
 
 LTST-S220GKT 
@@ -53017,6 +53024,13 @@ LTST-S220GKT
 0
 2
 2
+DigitalLogicFootprints
+PinHeader_1x03_P1.00mm_Vertical
+Through hole straight pin header, 1x03, 1.00mm pitch, single row
+Through hole pin header THT 1x03 1.00mm single row
+0
+3
+3
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
