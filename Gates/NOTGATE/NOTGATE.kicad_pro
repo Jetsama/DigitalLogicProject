@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.36,
-          "width": 0.318
+          "drill": 1.0,
+          "height": 1.7,
+          "width": 1.7
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -389,10 +389,12 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "DigitalLogicLibrary"
+    ]
   },
   "meta": {
-    "filename": "ANDGATE.kicad_pro",
+    "filename": "NOTGATE.kicad_pro",
     "version": 1
   },
   "net_settings": {
