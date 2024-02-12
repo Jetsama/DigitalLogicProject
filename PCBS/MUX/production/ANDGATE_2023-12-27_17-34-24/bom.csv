@@ -1,0 +1,7 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"D1, D2, D3, D4",D_SMA,4,1N4004,
+"J1, J2",PinHeader_1x01_P1.00mm_Vertical,2,Conn_01x01_Socket,
+J3,PinHeader_1x03_P1.00mm_Vertical,1,Conn_01x03_Socket,
+"LED1, LED2, LED3",0603,3,LTST-S220GKT,
+"R1, R2, R3",0201,3,4k,
+U1,DBV5,1,SN74LVC1G32DBVR,
