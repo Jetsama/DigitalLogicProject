@@ -1,4 +1,4 @@
-21786268833342595
+21787976706458287
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -51526,6 +51526,13 @@ Through hole pin header THT 1x03 1.00mm single row
 0
 3
 3
+DigitalLogicFootprints
+RDS16S1055SMT
+RDS-16S-1055-SMT-2
+Switch
+0
+6
+6
 DigitalLogicFootprints
 SOP65P400X130-8N
 
