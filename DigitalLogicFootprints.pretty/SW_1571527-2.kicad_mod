@@ -45,4 +45,9 @@
     (solder_mask_margin 0.102) (tstamp c486136d-eb44-48a0-9124-014a0afb3ac3))
   (pad "4" smd rect (at 4.55 2.25) (size 2.1 1.4) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_mask_margin 0.102) (tstamp e9a53922-917a-4a87-9475-01cedc93adc9))
+  (model "${KIPRJMOD}/../../DIGITALLOGICFOOTPRINTS/3D model/1571527-2.step"
+    (offset (xyz 0 0 3.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 -90))
+  )
 )

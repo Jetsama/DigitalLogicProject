@@ -65,4 +65,9 @@
     (solder_mask_margin 0.102) (tstamp c792be89-58e5-4d8e-a873-70f40f63cdbf))
   (pad "16" smd roundrect (at 2.87 -2.275) (size 1.57 0.41) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.05)
     (solder_mask_margin 0.102) (tstamp 62a92edb-e737-4519-8bc9-720388de953e))
+  (model "${KIPRJMOD}/../../DIGITALLOGICFOOTPRINTS/3D model/CD4043BPWR.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )

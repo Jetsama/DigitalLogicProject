@@ -57,9 +57,9 @@
   (pad "8" smd rect (at 6.35 -2.54 90) (size 1 2.7) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 27a83081-7946-423e-9a3b-93d9b2d3c082))
   (pad "C1" smd rect (at -6.35 0 90) (size 1 2.7) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 9519ecd2-a2bf-4862-8a32-8b80063eb2c2))
   (pad "C2" smd rect (at 6.35 0 90) (size 1 2.7) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f02c785b-8746-478e-87e2-3e8c7f7f292a))
-  (model "RDS-16S-1055-SMT.stp"
-    (offset (xyz 0 0 0))
+  (model "${KIPRJMOD}/../../DIGITALLOGICFOOTPRINTS/3D model/CUI_DEVICES_RDS-16S-1055-SMT.step"
+    (offset (xyz 1.5 0 3))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz -90 0 90))
   )
 )
