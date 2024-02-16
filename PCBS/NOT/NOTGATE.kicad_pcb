@@ -291,7 +291,7 @@
 
   (footprint "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical" (layer "F.Cu")
     (tstamp 6df4b741-a71a-4000-97fc-9a71a501b410)
-    (at 142 87.5)
+    (at 141.5 87.5)
     (descr "Through hole straight socket strip, 1x01, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
     (tags "Through hole socket strip THT 1x01 2.54mm single row")
     (property "Sheetfile" "NOTGATE.kicad_sch")
@@ -446,7 +446,7 @@
 
   (footprint "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" (layer "F.Cu")
     (tstamp 97e23c33-7a1e-40eb-b14b-d7b804a53930)
-    (at 168 84.96)
+    (at 168.5 85)
     (descr "Through hole straight socket strip, 1x03, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
     (tags "Through hole socket strip THT 1x03 2.54mm single row")
     (property "Sheetfile" "NOTGATE.kicad_sch")
@@ -530,7 +530,7 @@
     (property "SnapEDA_Link" "https://www.snapeda.com/parts/MB10F-13/Zetex/view-part/?ref=snap")
     (path "/de437362-16c6-4e2c-b246-f73a1e0bf742")
     (attr smd)
-    (fp_text reference "D1" (at -0.325 -3.635) (layer "F.SilkS")
+    (fp_text reference "D1" (at -0.06 0.32) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4bd268c2-ff83-46d4-8f14-348649a50fc8)
     )
@@ -4232,7 +4232,7 @@
 
   (footprint "DigitalLogicFootprints:8mm-snap" (layer "B.Cu")
     (tstamp 010276ce-2d3c-4f1e-9814-84d25cb3e075)
-    (at 147.5 87.5 180)
+    (at 147 87.5 180)
     (property "Sheetfile" "NOTGATE.kicad_sch")
     (property "Sheetname" "")
     (property "exclude_from_bom" "")
@@ -4258,7 +4258,7 @@
 
   (footprint "DigitalLogicFootprints:8mm-snap" (layer "B.Cu")
     (tstamp 3855bf69-3384-43fd-998e-91824199c72f)
-    (at 162.5 87.5 180)
+    (at 163 87.5 180)
     (property "Sheetfile" "NOTGATE.kicad_sch")
     (property "Sheetname" "")
     (property "exclude_from_bom" "")
@@ -4282,25 +4282,25 @@
       (net 7 "Net-(J5-PWR)") (pinfunction "PWR") (pintype "output") (tstamp 155155a5-de15-458f-9a76-dbd892159177))
   )
 
-  (gr_poly
-    (pts
-      (xy 140.5 80.5)
-      (xy 147.5 80.5)
-      (xy 147.5 81.5)
-      (xy 150.5 81.5)
-      (xy 150.5 80.5)
-      (xy 169.5 80.5)
-      (xy 169.5 94.5)
-      (xy 150.5 94.5)
-      (xy 150.5 93.5)
-      (xy 147.5 93.5)
-      (xy 147.5 94.5)
-      (xy 140.5 94.5)
-    )
-
-    (stroke (width 0.1) (type solid)) (fill none) (layer "Edge.Cuts") (tstamp 12675b72-3207-43a2-863b-a317cdcb8683))
   (gr_circle (center 165.1 81.28) (end 165.1 81.28)
     (stroke (width 0.1) (type default)) (fill none) (layer "Edge.Cuts") (tstamp 30dea9f6-9abc-4e90-8e40-c1c7667f8631))
+  (gr_poly
+    (pts
+      (xy 140 95)
+      (xy 147.5 95)
+      (xy 147.5 94)
+      (xy 150.5 94)
+      (xy 150.5 95)
+      (xy 170 95)
+      (xy 170 80)
+      (xy 150.5 80)
+      (xy 150.5 81)
+      (xy 147.5 81)
+      (xy 147.5 80)
+      (xy 140 80)
+    )
+
+    (stroke (width 0.1) (type solid)) (fill none) (layer "Edge.Cuts") (tstamp 37dc03d2-148e-4468-b922-a5295090ff09))
   (gr_circle (center 155 87.5) (end 156.25 87.5)
     (stroke (width 0.1) (type default)) (fill none) (layer "Edge.Cuts") (tstamp cc1d0c87-44a1-47b5-aac2-7dc5a4fa0e46))
 

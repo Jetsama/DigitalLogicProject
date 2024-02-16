@@ -391,7 +391,9 @@
     "pinned_footprint_libs": [
       "DigitalLogicFootprints"
     ],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "DigitalLogicLibrary"
+    ]
   },
   "meta": {
     "filename": "SWITCHES.kicad_pro",
