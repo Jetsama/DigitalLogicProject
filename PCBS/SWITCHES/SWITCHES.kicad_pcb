@@ -400,7 +400,7 @@
 
   (footprint "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" (layer "F.Cu")
     (tstamp 4ab5e9f4-7bf0-40a7-97b6-17b2d91f4bf2)
-    (at 152.16 93.5 -90)
+    (at 154.66 93.5 -90)
     (descr "Through hole straight socket strip, 1x03, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
     (tags "Through hole socket strip THT 1x03 2.54mm single row")
     (property "Sheetfile" "SWITCHES.kicad_sch")
@@ -457,7 +457,7 @@
       (net 6 "/OUTPUT1") (pinfunction "Pin_2") (pintype "passive") (tstamp 19b2ab11-0f1b-403b-9ceb-d59976fc279f))
     (pad "3" thru_hole oval (at 0 5.08 270) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
       (net 6 "/OUTPUT1") (pinfunction "Pin_3") (pintype "passive") (tstamp 94369aa4-7a6d-4a3b-b7be-17edc6f4cee0))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x03_P2.54mm_Vertical.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x03_P2.54mm_Vertical.wrl" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
