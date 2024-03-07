@@ -5,6 +5,12 @@
   )
 
   (paper "A4")
+  (title_block
+    (title "NOT Gate PCB")
+    (date "2024-02-17")
+    (rev "1")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (31 "B.Cu" signal)
@@ -69,9 +75,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "")
+      (outputdirectory "production/REV1/")
     )
   )
 
@@ -129,9 +135,9 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 577a362d-cec5-416e-b3ef-f9f4e191ea1d))
     (fp_line (start 1 0.625) (end -1 0.625)
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 9299f0ef-2ae9-4111-9f4c-ef5f1e8a3d53))
-    (pad "1" smd roundrect (at -1 0 270) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.208333)
+    (pad "1" smd roundrect (at -1 0 270) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2083333333)
       (net 4 "Net-(LED3-Pad1)") (pintype "passive") (tstamp f6ae49f7-9dea-4575-a725-bd5ccf67ea83))
-    (pad "2" smd roundrect (at 1 0 270) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.208333)
+    (pad "2" smd roundrect (at 1 0 270) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2083333333)
       (net 1 "GND") (pintype "passive") (tstamp 74423035-db0d-4c7d-9c0a-17e6fea63c99))
     (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
@@ -278,9 +284,9 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp d6073b08-49c9-4e6b-b079-bb667150c808))
     (fp_line (start 1 0.625) (end -1 0.625)
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp bcd53340-dfe3-4af2-b62f-d0428202f062))
-    (pad "1" smd roundrect (at -1 0 270) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.208333)
+    (pad "1" smd roundrect (at -1 0 270) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2083333333)
       (net 3 "Net-(LED1-Pad1)") (pintype "passive") (tstamp 4e1d0e6b-2338-4820-adfd-bca5c2a007ab))
-    (pad "2" smd roundrect (at 1 0 270) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.208333)
+    (pad "2" smd roundrect (at 1 0 270) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2083333333)
       (net 1 "GND") (pintype "passive") (tstamp f746844c-4f57-4636-9ebd-5d14b64d7a59))
     (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
@@ -4297,8 +4303,6 @@
       (net 7 "Net-(J5-PWR)") (pinfunction "PWR") (pintype "output") (tstamp 155155a5-de15-458f-9a76-dbd892159177))
   )
 
-  (gr_circle (center 165.1 81.28) (end 165.1 81.28)
-    (stroke (width 0.1) (type default)) (fill none) (layer "Edge.Cuts") (tstamp 30dea9f6-9abc-4e90-8e40-c1c7667f8631))
   (gr_poly
     (pts
       (xy 140 95)
