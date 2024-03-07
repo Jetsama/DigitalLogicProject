@@ -971,11 +971,20 @@
     )
   )
 
+  (junction (at 115.57 116.84) (diameter 0) (color 0 0 0 0)
+    (uuid 12542c71-0bb0-4f54-8461-1a7818f8c8d7)
+  )
   (junction (at 148.59 101.6) (diameter 0) (color 0 0 0 0)
     (uuid 20111a59-afd5-4e51-9024-89f6318bc662)
   )
+  (junction (at 110.49 104.14) (diameter 0) (color 0 0 0 0)
+    (uuid 45fe23b2-e80d-49e5-886f-7ec3045d4764)
+  )
   (junction (at 101.6 99.06) (diameter 0) (color 0 0 0 0)
     (uuid 4f11171b-17b8-4367-b052-b9065a26c476)
+  )
+  (junction (at 57.15 137.16) (diameter 0) (color 0 0 0 0)
+    (uuid 5a3a63f1-70c8-462b-9c2e-1a3b62e8bc58)
   )
   (junction (at 152.4 101.6) (diameter 0) (color 0 0 0 0)
     (uuid 94ce5880-5349-4e55-ae18-c291b98bd905)
@@ -1000,6 +1009,14 @@
     (stroke (width 0) (type default))
     (uuid 2111f58e-fbf8-42b8-8a9d-c171683ce2b8)
   )
+  (wire (pts (xy 57.15 152.4) (xy 57.15 147.32))
+    (stroke (width 0) (type default))
+    (uuid 28179306-5db7-415b-82bf-6fc07634065c)
+  )
+  (wire (pts (xy 110.49 104.14) (xy 115.57 104.14))
+    (stroke (width 0) (type default))
+    (uuid 2cbedb4b-1f87-4cd0-983f-ddb89b774c8d)
+  )
   (wire (pts (xy 148.59 115.57) (xy 148.59 116.84))
     (stroke (width 0) (type default))
     (uuid 36d1ae80-a760-472a-8a0f-9c7964c6b918)
@@ -1012,6 +1029,10 @@
     (stroke (width 0) (type default))
     (uuid 4285b3f5-feee-4dc8-bffb-85f561e7390a)
   )
+  (wire (pts (xy 101.6 116.84) (xy 101.6 115.57))
+    (stroke (width 0) (type default))
+    (uuid 48037e74-f5c5-4828-ae02-d0801a89666f)
+  )
   (wire (pts (xy 130.81 87.63) (xy 130.81 88.9))
     (stroke (width 0) (type default))
     (uuid 4954e388-c667-4529-86f4-37c36413d41f)
@@ -1020,7 +1041,7 @@
     (stroke (width 0) (type default))
     (uuid 49ef726b-161f-4737-81ec-ba125e0053dc)
   )
-  (wire (pts (xy 95.25 104.14) (xy 115.57 104.14))
+  (wire (pts (xy 95.25 104.14) (xy 110.49 104.14))
     (stroke (width 0) (type default))
     (uuid 4e708329-8e0d-4f6c-9100-ca0f6980fe45)
   )
@@ -1036,9 +1057,17 @@
     (stroke (width 0) (type default))
     (uuid 6d43eda2-dddd-4d29-9de4-cd53c9b15193)
   )
+  (wire (pts (xy 48.26 137.16) (xy 57.15 137.16))
+    (stroke (width 0) (type default))
+    (uuid 6dafaa3a-25de-4358-a1b4-d6487ffa2223)
+  )
   (wire (pts (xy 130.81 114.3) (xy 130.81 116.84))
     (stroke (width 0) (type default))
     (uuid 6e41fe3e-ab0b-4220-a977-ab2c6b8fce94)
+  )
+  (wire (pts (xy 60.96 137.16) (xy 57.15 137.16))
+    (stroke (width 0) (type default))
+    (uuid 775bfa07-7351-4cf9-92e6-af54709e8a49)
   )
   (wire (pts (xy 114.3 64.77) (xy 116.84 64.77))
     (stroke (width 0) (type default))
@@ -1051,6 +1080,10 @@
   (wire (pts (xy 152.4 99.06) (xy 152.4 101.6))
     (stroke (width 0) (type default))
     (uuid 84ef99a7-42c5-47b1-b762-f81cce04824c)
+  )
+  (wire (pts (xy 60.96 134.62) (xy 60.96 137.16))
+    (stroke (width 0) (type default))
+    (uuid 92f87c5b-896c-41c0-ac6a-b449e53d05e0)
   )
   (wire (pts (xy 96.52 64.77) (xy 99.06 64.77))
     (stroke (width 0) (type default))
@@ -1068,9 +1101,17 @@
     (stroke (width 0) (type default))
     (uuid c1b7a36d-3c8a-4799-b3f9-401225f802de)
   )
-  (wire (pts (xy 101.6 115.57) (xy 101.6 116.84))
+  (wire (pts (xy 113.03 116.84) (xy 115.57 116.84))
     (stroke (width 0) (type default))
-    (uuid cbbe8154-8a86-43c3-a80d-5fdff03ff107)
+    (uuid caa2f695-2af2-4897-b5c6-a8ca59bd67b6)
+  )
+  (wire (pts (xy 110.49 92.71) (xy 110.49 104.14))
+    (stroke (width 0) (type default))
+    (uuid d9a68dc2-fbef-46bc-986a-9ee6422fd8da)
+  )
+  (wire (pts (xy 48.26 152.4) (xy 57.15 152.4))
+    (stroke (width 0) (type default))
+    (uuid e1791e55-4841-45b6-8886-c6472daad438)
   )
   (wire (pts (xy 115.57 104.14) (xy 115.57 105.41))
     (stroke (width 0) (type default))
@@ -1087,6 +1128,35 @@
   (wire (pts (xy 106.68 54.61) (xy 106.68 57.15))
     (stroke (width 0) (type default))
     (uuid ff8ded71-2e96-417c-a437-aadf3e7c6c5f)
+  )
+
+  (global_label "NOT" (shape input) (at 110.49 92.71 90) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 0cc448fe-7b8f-4b0c-b642-a92e8251745e)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 110.49 86.1756 90)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
+  (global_label "NOTRES" (shape input) (at 48.26 152.4 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 145fb4b1-8a29-4947-acbf-5f10cb74fd0d)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 38.0971 152.4 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
+  (global_label "NOT" (shape input) (at 60.96 134.62 90) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 88f797e5-a846-4b93-bc3f-9e2eb8e8c8a7)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 60.96 128.0856 90)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
+  (global_label "NOTRES" (shape input) (at 113.03 116.84 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid f3e00d00-5e01-468f-94d5-6097625c0af8)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 102.8671 116.84 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
   )
 
   (symbol (lib_id "power:GND") (at 130.81 116.84 0) (unit 1)
@@ -1106,7 +1176,7 @@
     )
     (pin "1" (uuid 8cd520ed-473c-47a2-a755-92afc9c7982e))
     (instances
-      (project "ANDGATE"
+      (project "GATE"
         (path "/ee51f292-e26d-4592-addf-9e4720b689f5"
           (reference "#PWR04") (unit 1)
         )
@@ -1132,7 +1202,7 @@
     (pin "1" (uuid 847cd977-9169-4969-80f6-a3263c5b10c7))
     (pin "2" (uuid bf170bfe-54b4-416e-b4a4-b7b144f8557a))
     (instances
-      (project "ANDGATE"
+      (project "GATE"
         (path "/ee51f292-e26d-4592-addf-9e4720b689f5"
           (reference "LED3") (unit 1)
         )
@@ -1157,7 +1227,7 @@
     )
     (pin "1" (uuid d43711f0-fe64-47d5-9c61-f1f3adf64ac6))
     (instances
-      (project "ANDGATE"
+      (project "GATE"
         (path "/ee51f292-e26d-4592-addf-9e4720b689f5"
           (reference "#PWR05") (unit 1)
         )
@@ -1184,7 +1254,7 @@
     (pin "2" (uuid 7a67997b-6f69-4823-bf59-199c650c44a0))
     (pin "3" (uuid a697d533-8975-44bb-abbc-02f282798dc2))
     (instances
-      (project "ANDGATE"
+      (project "GATE"
         (path "/ee51f292-e26d-4592-addf-9e4720b689f5"
           (reference "J3") (unit 1)
         )
@@ -1207,13 +1277,13 @@
     (property "Datasheet" "SN74LVC1G32DBVR" (at 105.41 100.33 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
+    (pin "1" (uuid f9527e35-1c12-40d8-8e7b-7162eff18b6a))
     (pin "2" (uuid c40d7f41-8e39-44f1-8a84-d108bba547c7))
+    (pin "3" (uuid 5f0093af-5eae-4d4a-950e-44c6d289a60e))
     (pin "4" (uuid e246ffb2-8bed-4902-af07-ce263a00e53e))
     (pin "5" (uuid 2e960971-e751-4983-8fba-2cfe23ec2ec2))
-    (pin "1" (uuid f9527e35-1c12-40d8-8e7b-7162eff18b6a))
-    (pin "3" (uuid 5f0093af-5eae-4d4a-950e-44c6d289a60e))
     (instances
-      (project "ANDGATE"
+      (project "GATE"
         (path "/ee51f292-e26d-4592-addf-9e4720b689f5"
           (reference "U1") (unit 1)
         )
@@ -1238,7 +1308,7 @@
     )
     (pin "1" (uuid b0b62e41-3bdc-462c-bed6-ac1c16545654))
     (instances
-      (project "ANDGATE"
+      (project "GATE"
         (path "/ee51f292-e26d-4592-addf-9e4720b689f5"
           (reference "J2") (unit 1)
         )
@@ -1264,7 +1334,7 @@
     (pin "1" (uuid e13e6f95-68f2-441e-9913-688c5310ba4c))
     (pin "2" (uuid 4e97c800-a160-411e-8a27-b42447d2b6ae))
     (instances
-      (project "ANDGATE"
+      (project "GATE"
         (path "/ee51f292-e26d-4592-addf-9e4720b689f5"
           (reference "LED2") (unit 1)
         )
@@ -1289,7 +1359,7 @@
     )
     (pin "1" (uuid 00bed519-34a6-479f-8a1e-572d871617dd))
     (instances
-      (project "ANDGATE"
+      (project "GATE"
         (path "/ee51f292-e26d-4592-addf-9e4720b689f5"
           (reference "#PWR01") (unit 1)
         )
@@ -1314,7 +1384,7 @@
     )
     (pin "1" (uuid 03c62fd0-de78-41bd-a4ff-6a1b8c4638a1))
     (instances
-      (project "ANDGATE"
+      (project "GATE"
         (path "/ee51f292-e26d-4592-addf-9e4720b689f5"
           (reference "#PWR07") (unit 1)
         )
@@ -1339,7 +1409,7 @@
     )
     (pin "1" (uuid 31838187-e85a-430b-8868-b4a6bff1960c))
     (instances
-      (project "ANDGATE"
+      (project "GATE"
         (path "/ee51f292-e26d-4592-addf-9e4720b689f5"
           (reference "J5") (unit 1)
         )
@@ -1364,7 +1434,7 @@
     )
     (pin "1" (uuid fe563aae-205e-4446-9e2c-411d5b76873c))
     (instances
-      (project "ANDGATE"
+      (project "GATE"
         (path "/ee51f292-e26d-4592-addf-9e4720b689f5"
           (reference "#PWR02") (unit 1)
         )
@@ -1387,12 +1457,37 @@
     (property "Datasheet" "LTST-S220GKT" (at 101.6 105.41 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
-    (pin "1" (uuid 82f04f93-b736-4428-acef-cfaf9eb78d50))
-    (pin "2" (uuid 019a0350-2b16-4957-868e-a139ae7caa8e))
+    (pin "1" (uuid b07f23e7-79e0-4437-bac2-b72a4799b173))
+    (pin "2" (uuid 7f8bdd2a-eba6-4259-94bd-5f4ccaa74818))
     (instances
-      (project "ANDGATE"
+      (project "GATE"
         (path "/ee51f292-e26d-4592-addf-9e4720b689f5"
           (reference "LED1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "DigitalLogicLibrary:Conn_01x01_Socket") (at 43.18 137.16 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid a4cb811d-8e8c-4984-af79-8c878c887b4a)
+    (property "Reference" "J6" (at 43.815 132.08 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "Conn_01x01_Socket" (at 43.815 134.62 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical" (at 43.18 137.16 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 43.18 137.16 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 12b13e2b-ebe2-4994-8f20-cb8194ca645a))
+    (instances
+      (project "GATE"
+        (path "/ee51f292-e26d-4592-addf-9e4720b689f5"
+          (reference "J6") (unit 1)
         )
       )
     )
@@ -1416,7 +1511,7 @@
     (pin "1" (uuid 7aeadf22-cb16-4ac3-b2e8-caabdc196a02))
     (pin "2" (uuid bfab0f74-8db2-4308-8ad9-3b7f16ba148c))
     (instances
-      (project "ANDGATE"
+      (project "GATE"
         (path "/ee51f292-e26d-4592-addf-9e4720b689f5"
           (reference "R1") (unit 1)
         )
@@ -1441,7 +1536,7 @@
     )
     (pin "1" (uuid 3b63c718-2764-4a8a-afc4-c07cb2e8baea))
     (instances
-      (project "ANDGATE"
+      (project "GATE"
         (path "/ee51f292-e26d-4592-addf-9e4720b689f5"
           (reference "#PWR06") (unit 1)
         )
@@ -1466,7 +1561,7 @@
     )
     (pin "1" (uuid c79e0063-bf05-4e2f-856e-81c9d491a711))
     (instances
-      (project "ANDGATE"
+      (project "GATE"
         (path "/ee51f292-e26d-4592-addf-9e4720b689f5"
           (reference "J1") (unit 1)
         )
@@ -1491,7 +1586,7 @@
     )
     (pin "1" (uuid 95cd45af-9547-4ed3-ba84-936d3ec9b4e0))
     (instances
-      (project "ANDGATE"
+      (project "GATE"
         (path "/ee51f292-e26d-4592-addf-9e4720b689f5"
           (reference "#PWR03") (unit 1)
         )
@@ -1553,14 +1648,40 @@
     (property "MANUFACTURER" "Diodes Inc." (at 106.68 64.77 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
-    (pin "3" (uuid 8252f329-d29a-4668-a29d-e798884fd395))
-    (pin "2" (uuid a4101cbc-f7ee-46cf-a569-c9553ed0b911))
     (pin "1" (uuid b954cb02-1fb4-4a6c-88d5-e3b72c52585e))
+    (pin "2" (uuid a4101cbc-f7ee-46cf-a569-c9553ed0b911))
+    (pin "3" (uuid 8252f329-d29a-4668-a29d-e798884fd395))
     (pin "4" (uuid d2e58e1a-fece-4eae-bee3-2f6a678461e2))
     (instances
-      (project "ANDGATE"
+      (project "GATE"
         (path "/ee51f292-e26d-4592-addf-9e4720b689f5"
           (reference "D1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "DigitalLogicLibrary:LTST-S220GKT") (at 57.15 137.16 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid e2275b38-6ea7-4eaf-a6d4-eb422ed36abd)
+    (property "Reference" "LED4" (at 63.5 142.24 90)
+      (effects (font (size 1.524 1.524)) (justify left))
+    )
+    (property "Value" "LTST-S220GKT" (at 63.5 144.78 90)
+      (effects (font (size 1.524 1.524)) (justify left))
+    )
+    (property "Footprint" "LED_LTST-S220GKT_LTO" (at 57.15 137.16 0)
+      (effects (font (size 1.27 1.27) italic) hide)
+    )
+    (property "Datasheet" "LTST-S220GKT" (at 57.15 137.16 0)
+      (effects (font (size 1.27 1.27) italic) hide)
+    )
+    (pin "1" (uuid 1afa0267-1f08-4e40-ab39-a4fc959205f8))
+    (pin "2" (uuid 6de733ba-209c-4b28-97c2-4f483e5086cd))
+    (instances
+      (project "GATE"
+        (path "/ee51f292-e26d-4592-addf-9e4720b689f5"
+          (reference "LED4") (unit 1)
         )
       )
     )
@@ -1584,7 +1705,7 @@
     (pin "1" (uuid ae0bb358-9a05-4562-9106-ffd71ca1ac4c))
     (pin "2" (uuid ba920d92-2905-4d67-be22-7ee05028289f))
     (instances
-      (project "ANDGATE"
+      (project "GATE"
         (path "/ee51f292-e26d-4592-addf-9e4720b689f5"
           (reference "R2") (unit 1)
         )
@@ -1609,7 +1730,7 @@
     )
     (pin "1" (uuid 799e5cd7-be2d-4145-a5bb-61c1e0a7d034))
     (instances
-      (project "ANDGATE"
+      (project "GATE"
         (path "/ee51f292-e26d-4592-addf-9e4720b689f5"
           (reference "J4") (unit 1)
         )
@@ -1635,7 +1756,7 @@
     (pin "1" (uuid 0defc986-7e83-451a-ac55-49ce71f7406c))
     (pin "2" (uuid e978dda7-acf3-49bd-9912-3b006742ffe6))
     (instances
-      (project "ANDGATE"
+      (project "GATE"
         (path "/ee51f292-e26d-4592-addf-9e4720b689f5"
           (reference "R3") (unit 1)
         )
