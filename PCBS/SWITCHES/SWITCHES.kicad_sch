@@ -1326,6 +1326,7 @@
   )
 
   (no_connect (at 157.48 49.53) (uuid 12e4ddf8-09a6-4d44-928e-17d17ccdc6da))
+  (no_connect (at 49.53 54.61) (uuid 16aab6ea-8c0c-4438-aaa9-44e2ae1ff888))
 
   (wire (pts (xy 50.8 104.14) (xy 50.8 106.68))
     (stroke (width 0) (type default))
