@@ -18,7 +18,7 @@
   (pad "1" smd custom (at -3 0) (size 1 1) (layers "F.Cu" "F.Paste" "F.Mask")
     (options (clearance outline) (anchor rect))
     (primitives
-      (gr_circle (center 3 0) (end 7.025 0) (width 0.2) (fill none))
+      (gr_circle (center 3 0) (end 7.025 0) (width 0.1) (fill none))
       (gr_circle (center 3 0) (end 6 0) (width 2) (fill none))
     ) (tstamp f8077365-c680-4d7e-803a-3a483331a3d3))
 )
