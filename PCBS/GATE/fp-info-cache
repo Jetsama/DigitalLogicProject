@@ -1,4 +1,4 @@
-21789705792885062
+21794835043722908
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -51499,6 +51499,13 @@ HBBLogo
 0
 0
 DigitalLogicFootprints
+LED_LTD-4708G
+
+
+0
+10
+10
+DigitalLogicFootprints
 LED_LTST-S220GKT_LTO
 
 LTST-S220GKT 
@@ -51534,6 +51541,13 @@ Switch
 6
 6
 DigitalLogicFootprints
+SOIC127P1030X265-20N
+
+
+0
+20
+20
+DigitalLogicFootprints
 SOP65P400X130-8N
 
 
@@ -51561,6 +51575,13 @@ SW_RDS-16S-1045-D
 0
 6
 6
+DigitalLogicFootprints
+TO254P1041X444X1930-3
+
+
+0
+3
+3
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
